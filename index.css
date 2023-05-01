@@ -1,0 +1,75 @@
+body{
+    position:top;
+     background-image:url('Gt.jpg'); 
+  
+    margin-bottom: 60px;
+}
+h2{
+    background:black;
+    color:aqua;
+}
+h1{
+    color: green;
+}
+
+   
+
+h4{
+    color: rgb(248, 247, 245);
+}
+
+html,body {
+    margin:0;
+    padding:0;
+    height:100%; /* needed for container min-height */
+}
+
+.content {
+    position:relative; /* needed for footer positioning*/
+    margin:0 auto; /* center, not in IE5 */
+
+    height:auto !important; /* real browsers */
+    height:100%; /* IE6: treaded as min-height*/
+
+    min-height:100%; /* real browsers */
+}
+
+/* --- Footer --- */
+.footerbar {                                position: absolute;
+                                            width: 100%;
+                                            bottom: 0;
+
+                                            color: rgba(13, 0, 0, 0.907);
+                                            background-color: #202020;
+                                            font-size: 12px; }
+
+a.nav-footer:link,
+a.nav-footer:visited {                      color: white !important; }
+a.nav-footer:hover, 
+a.nav-footer:focus {                        color: black !important;
+                                            background-color: #E7E7E7 !important; }
+.container{
+    padding-bottom: 50px;
+}
+  p{
+    color: #E7E7E7;
+    margin: 25px;
+  }
+  ul{
+    color: #E7E7E7;
+  }
+
+  a{
+    border-color: #E7E7E7;
+  }
+  b{
+    color: antiquewhite;
+  }
+  form {
+    background-color: transparent;
+  }
+  label{
+    color: aliceblue;
+  }
+  
+  
